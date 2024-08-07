@@ -27,7 +27,7 @@
             [src]="image.imgPath"
           />
           <div
-            class="absolute flex justify-center items-center inset-0 rounded-lg z-10 w-full bg-[#1abc9cbd] opacity-10 hover:opacity-100 duration-500"
+            class="absolute flex justify-center items-center inset-0 rounded-lg z-10 w-full bg-[#1abc9cbd] opacity-5 hover:opacity-100 duration-500"
           >
             <i class="fa-solid fa-plus text-8xl text-white"></i>
           </div>
@@ -41,7 +41,7 @@
 <div (click)="hideDiv($event)">
   @if(userClick == true) {
   <div
-    class="fixed flex justify-center items-center z-50 bg-primary position-fixed inset-0 m-auto w-100 h-100 start-0 d-flex justify-content-center align-items-center bg-blue-300 bg-opacity-50 opacity-10 hover:opacity-100 duration-500"
+    class="fixed flex justify-center items-center z-50 bg-primary position-fixed inset-0 m-auto w-100 h-100 start-0 d-flex justify-content-center align-items-center bg-blue-300 bg-opacity-50 duration-500"
   >
     <img [src]="userImg" class="w-2/5" alt="" />
   </div>
