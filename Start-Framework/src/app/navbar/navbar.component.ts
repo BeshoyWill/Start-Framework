@@ -10,7 +10,7 @@ import { RouterLink, RouterLinkActive } from '@angular/router';
   styleUrl: './navbar.component.css',
 })
 export class NavbarComponent {
-  isNavbarOpen: boolean = false;
+  isNavbarOpen = false;
   isScroll: boolean = false;
 
   @HostListener('window:scroll')
